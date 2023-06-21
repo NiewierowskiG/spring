@@ -1,0 +1,25 @@
+{
+  "applications": "*",
+  "changelogDate": "20230621222221",
+  "dto": "mapstruct",
+  "entityTableName": "email",
+  "fields": [
+    {
+      "fieldName": "title",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "sendingDate",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Email",
+  "pagination": "infinite-scroll",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

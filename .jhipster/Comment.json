@@ -1,0 +1,20 @@
+{
+  "applications": "*",
+  "changelogDate": "20230621222220",
+  "dto": "mapstruct",
+  "entityTableName": "comment",
+  "fields": [
+    {
+      "fieldName": "content",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "creationTime",
+      "fieldType": "LocalDate"
+    }
+  ],
+  "name": "Comment",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

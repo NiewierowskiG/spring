@@ -1,0 +1,35 @@
+
+
+entity Post
+{
+  	title String,
+    description String,
+    creationTime LocalDate,
+    status Integer
+}
+
+entity Comment
+{
+    content String,
+    creationTime LocalDate
+}
+
+entity Category
+{
+    categoryName String
+}
+
+entity Email
+{
+    title String,
+    content String,
+    sendingDate LocalDate
+}
+
+paginate Email with infinite-scroll
+paginate Post with pagination
+
+dto * with mapstruct
+
+service all with serviceImpl
+
