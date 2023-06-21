@@ -34,8 +34,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:postgresql://localhost:5432/forum
-    username: forum
-    password:
+    username: postgres
+    password: docker
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -99,7 +99,7 @@ jhipster:
         # - In the Consul configserver
         # - In a separate `application-prod.yml` file, in the same folder as your executable JAR file
         # - In the `JHIPSTER_SECURITY_AUTHENTICATION_JWT_BASE64_SECRET` environment variable
-        base64-secret: M2IwODc3YWIwNjBjMWVlMzg0MDIyMDkwOThkYTZhMDJmOWZmNjRkNzQ5YTc4ODRmNzY4MjQ3MzVmNDM0YWQwNWIwNDNiNzY5Yjk0NmJlOTgzZTA1Mzc0NjhiNWJkYjk1MWQ1NTU0Yjk5ODk4ZDMwMGJiYTM1MWRlYjM3NDNhMDY=
+        base64-secret: OTQ0YTJhMDJiNjA5YzEzMWFjZGNlODViN2U3Mjk2NTgxODNjMTkxNDcwZWM0MzcxZTRkYTk5ZDI3YWMwMzdlMzZjZDc2ODk3MjI2MTAxNjIzNjYyNWM1Mzg5YjI0M2ZjODYxMzNhOGU3OWJkODI2ODAzZGMyNDA5ZWY0OTc0Yzc=
         # Token is valid 24 hours
         token-validity-in-seconds: 86400
         token-validity-in-seconds-for-remember-me: 2592000
